@@ -1,0 +1,272 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 1180px;
+}
+
+/* for video */
+.video {
+    position: absolute;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* For Header */
+.main_header {
+    position: absolute;
+    width: 100%;
+}
+
+.header_nav {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.hader_nav_iteams {
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin-left: 30%;
+    padding: 30px;
+    /* border:2px solid black; */
+}
+
+.hader_nav_iteams a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hader_nav_iteams a:hover {
+    border-bottom: 3px solid white;
+}
+
+/* For logo */
+.nav_logo img {
+    width: 170px;
+    margin: 30px 0px;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+}
+
+.image_hover:hover {
+    border: none !important;
+}
+
+.nav_logo {
+    /* position: absolute; */
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* for menu iteam */
+.nav_iteam {
+
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+
+/* for Button CTA */
+.cta_button {
+    margin: 20px 0px;
+    vertical-align: middle;
+    padding: 7px 16px;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 40px;
+    position: absolute;
+    right: 125px;
+    top: 8px;
+    display: inline-block;
+}
+
+.cta_button:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.cta_button a {
+    color: black;
+}
+
+
+/* Center Image */
+.image_discord {
+    position: absolute;
+    top: 25%;
+    left: 55px;
+}
+
+.image_discord img {
+    width: 300px;
+}
+
+
+
+/* Intro Images Banner */
+.Intro_image {
+    position: absolute;
+    top: 37%;
+    left: 100px;
+
+}
+
+.Intro_image img {
+    height: 75px;
+}
+
+
+/* Introduction Descriptions */
+.desc {
+    position: absolute;
+    left: 100px;
+    top: 53%;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    width: 600px;
+}
+
+/* button */
+.button_sucribe {
+    position: absolute;
+    top: 67%;
+    left: 30px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+
+}
+
+.button_sucribe ul {
+    list-style: none;
+}
+
+.button_sucribe a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    background-color: rgb(80, 79, 79);
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    width: 250px;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+/* for Discount Coupon */
+.discout_coupon {
+    color: white;
+    background: #9487F4;
+    width: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+/* PLan */
+.banner_plan {
+    position: absolute;
+    top: 90%;
+    left: 55px;
+    display: block;
+}
+
+/* Nitro basic */
+.intro_basic {
+    background-color: #0979C7;
+}
+
+/* Nitro premium */
+.intro_premium {
+
+    position: absolute;
+    background-color: #A746C3;
+}
+
+/* both */
+.intro_basic:hover,
+.intro_premium:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.banner_plans {
+    /* border:2px solid black; */
+    border-radius: 20px;
+    width: 570px;
+    height: 490px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/* for Banner image */
+.banner_img {
+    margin: 20px;
+}
+
+.banner_img img {
+    height: 0px;
+}
+
+/* Elements */
+
+.elements {
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Pathway Extreme', sans-serif;
+
+}
+
+.banner_plans ul {
+    list-style: none;
+}
+
+/* icon elements */
+
+.Icons_elements {
+    color: white;
+    font-size: 35px;
+    vertical-align: middle;
+    padding: 7px 0px;
+}
+
+
+
+/* for Subscribe button */
+.cta_susbrice {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 12px 20px;
+
+    font-size: 20px;
+    font-family: 'Ysabeau', sans-serif;
+    width: 80%;
+    position: absolute;
+    bottom: 25px;;
+    left: 50px;
+}
+
+.cta_susbrice:hover {
+    color: blue;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
